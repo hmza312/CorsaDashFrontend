@@ -1,7 +1,6 @@
 import clsx from 'clsx'
-import {KTSVG, toAbsoluteUrl} from '../../../helpers'
-import {HeaderNotificationsMenu, HeaderUserMenu, Search, ThemeModeSwitcher} from '../../../partials'
-import {useLayout} from '../../core'
+import { KTSVG, toAbsoluteUrl } from '../../../helpers'
+import { HeaderUserMenu } from '../../../partials'
 
 const itemClass = 'ms-1 ms-lg-3'
 const btnClass =
@@ -10,7 +9,7 @@ const userAvatarClass = 'symbol-35px symbol-md-40px'
 const btnIconClass = 'svg-icon-1'
 
 const Navbar = () => {
-  const {config} = useLayout()
+  // const {config} = useLayout()
   return (
     <div className='app-navbar flex-shrink-0'>
       {/* <div className={clsx('app-navbar-item align-items-stretch', itemClass)}>
@@ -77,4 +76,5 @@ const Navbar = () => {
   )
 }
 
-export {Navbar}
+export { Navbar }
+

@@ -1,12 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import clsx from 'clsx'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-import {KTSVG, toAbsoluteUrl} from '../../../helpers'
-import {useLayout} from '../../core'
-import {Header} from './Header'
-import TabHeader from './header-menus/TabHeader'
-import {Navbar} from './Navbar'
+import { KTSVG, toAbsoluteUrl } from '../../../helpers'
+import { useLayout } from '../../core'
+import { Header } from './Header'
+import { Navbar } from './Navbar'
 
 export function HeaderWrapper() {
   const {config, classes} = useLayout()
